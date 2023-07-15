@@ -1166,12 +1166,21 @@
 
 /* Responsive Styles for Main Section  generic */
 
-@media screen and (max-width: 736px) {
-    #main .innerm {
-        padding: 2em;
+
+/* Media queries for responsive styles */
+
+@media screen and (max-width: 768px) {
+    #main>.innerm>.gallery h2 {
+        font-size: 18px;
     }
-    #main .image.main img {
+    #main>.innerm>.image.main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #main>.innerm>.image.main img {
+        width: auto;
         max-width: 100%;
+        height: auto;
     }
 }
 
