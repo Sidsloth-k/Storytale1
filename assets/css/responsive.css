@@ -1292,7 +1292,7 @@
         z-index: 101;
     }
     .coll_mainnav.coll_mainnav_active ul.coll_mainnav_menu {
-        background-image: radial-gradient(circle at center, #023047, #04495b, #ff9800);
+        background: radial-gradient(circle at center, #023047, #04495b, #ff9800);
         background-size: cover;
         width: 100%;
         height: auto;
