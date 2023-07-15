@@ -1312,9 +1312,7 @@
         }
         
         .coll_mainnav {
-            background-image: url("/images/OfficialLogo-09.png");
-            background-size: cover;
-            background-repeat: no-repeat;
+            background: transparent;
             width: 5rem;
             height: 20vh;
             padding: 1rem;
