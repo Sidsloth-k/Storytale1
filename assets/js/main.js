@@ -182,12 +182,12 @@
 
         });
 
+    let toggleButton = document.querySelector(".mainnav_mobile_toggle");
+    toggleButton.addEventListener("click", toggleMobileMenu);
+
+    function toggleMobileMenu() {
+        console.log("Klappt");
+        document.querySelector(".coll_mainnav").classList.toggle("coll_mainnav_active");
+    }
+
 })(jQuery);
-
-let toggleButton = document.querySelector(".mainnav_mobile_toggle");
-toggleButton.addEventListener("click", toggleMobileMenu);
-
-function toggleMobileMenu() {
-    console.log("Klappt");
-    document.querySelector(".coll_mainnav").classList.toggle("coll_mainnav_active");
-}
