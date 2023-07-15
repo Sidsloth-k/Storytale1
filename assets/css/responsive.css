@@ -1119,7 +1119,7 @@
 
 /*  Responsive styles for Actions */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and ( max-width: 1024px) {
     ul.actions:not(.fixed) {
         -moz-flex-direction: column;
         -webkit-flex-direction: column;
@@ -1166,10 +1166,7 @@
 
 /* Responsive Styles for Main Section  generic */
 
-
-/* Media queries for responsive styles */
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 1024px) {
     #main>.innerm>.gallery h2 {
         font-size: 18px;
     }
